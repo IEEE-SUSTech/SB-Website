@@ -4,48 +4,48 @@
 
 ### 1. First time
 
-    a. Create a virtual environment of your choice; I use [venv](https://docs.python.org/3/tutorial/venv.html)
+a. Create a virtual environment of your choice; I use [venv](https://docs.python.org/3/tutorial/venv.html)
 
-    ```
-    py -m venv NameOfVirtualEnvironment /path/to/new/virtual/environment 
-    ```
+``` shell
+py -m venv NameOfVirtualEnvironment /path/to/new/virtual/environment 
+```
 
-    b. Install django 3.2
+b. Install django 3.2
 
-    ```
+``` shell
     py -m pip install django==3.2
 
-    ```
+```
 
-    c. Enter the frontEnd directory
+c. Enter the frontEnd directory
 
-    ```
-    cd .\frontEnd\
-    ```
+``` shell
+cd .\frontEnd\
+```
 
-    d. Install all dependencies
+d. Install all dependencies
 
-    ```
-    npm i --save-dev
-    ```
+``` shell
+npm i --save-dev
+```
 
 ### 2. Afterwards
 
-    a. Run the virtual environment (always)
+a. Run the virtual environment (always)
 
-    ```
+``` shell
     cd .\path\to\new\virtual\environment
     ./activate
-    ```
+```
 
-    b. Compile the frontEnd code in its diretory
+b. Compile the frontEnd code in its diretory
 
-    ```
+``` shell
     npm run dev
-    ```
+```
 
-    c. Run the django server in its directory
-    
-    ```
-    py -m run manage.py
-    ```
+c. Run the django server in its directory
+
+``` shell
+py -m run manage.py
+```
