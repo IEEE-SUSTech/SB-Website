@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.searchBar::placeholder {
+	color: white;
+	opacity: 1;
+}
+
+.searchBar::-ms-input-placeholder {
+	color: white;
+}
+
+@keyframes slide {
+	0% {
+		transform: translate(0);
+	}
+	100% {
+		transform: translate(-1280px);
+	}
+}
+
+.scrollingIMG {
+	background: url(../static/frontEnd/ribbon.png) repeat-x;
+	height: 154px;
+	width: 2560px;
+	animation: slide 15s linear infinite;
+}
