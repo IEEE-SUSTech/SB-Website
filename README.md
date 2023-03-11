@@ -47,5 +47,5 @@ npm run dev
 c. Run the django server in its directory
 
 ``` shell
-py -m run manage.py
+py -m manage.py runserver
 ```

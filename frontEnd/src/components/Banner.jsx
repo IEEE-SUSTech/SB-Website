@@ -1,5 +1,3 @@
-import React from "react";
-
 const Banner = () => {
 	return (
 		<section className="w-full bg-banner h-36 text-center">
