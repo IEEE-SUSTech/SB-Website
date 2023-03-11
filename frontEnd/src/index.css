@@ -23,6 +23,10 @@
 .scrollingIMG {
 	background: url(../static/frontEnd/ribbon.png) repeat-x;
 	height: 154px;
-	width: 2560px;
+	width: 3840px;
 	animation: slide 15s linear infinite;
+}
+
+#welcome {
+	font-weight: bolder;
 }

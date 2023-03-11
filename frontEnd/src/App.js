@@ -13,6 +13,15 @@ import { fas } from "@fortawesome/free-solid-svg-icons";
 
 library.add(fab, fas);
 
+window.addEventListener("scroll", e => {
+	const nav = document.querySelector("#navigationBar");
+	if (window.scrollY > 200) {
+		nav.classList.add("shadow-md");
+	} else {
+		nav.classList.remove("shadow-md");
+	}
+});
+
 const App = () => {
 	return (
 		<>

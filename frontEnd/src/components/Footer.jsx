@@ -1,13 +1,15 @@
-import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import GPI from "./GPI.jsx";
+import { useState } from "react";
 
 const facebook = "https://www.facebook.com/sustechsb/";
 
 const Footer = () => {
+	const [colored, setColored] = useState(false);
 	return (
 		<section className="bg-black text-white mt-3 w-full h-auto flex justify-center">
-			<ul className="h-full w-3/4 flex flex-row justify-center items-center pb-2 mt-2 mb-3">
-				<li className="mr-20 w-1/4 pb-16">
+			<ul className="h-full w-3/4 flex flex-row justify-between items-start my-3">
+				<li className="w-1/4">
 					<img
 						src="../../static/frontEnd/upcomingEvent.jpg"
 						alt="Upcoming Event"
@@ -20,7 +22,7 @@ const Footer = () => {
 						#IEEEAfrica #IEEESudan
 					</p>
 				</li>
-				<li className="mr-20 w-1/4 pb-6">
+				<li className="w-1/4">
 					<img
 						src="../../static/frontEnd/pastEvent.jpg"
 						alt="Past Event"
@@ -35,21 +37,28 @@ const Footer = () => {
 				</li>
 				<li className="w-1/4">
 					<img
-						src="../../static/frontEnd/podcast.jpg"
+						src="../../static/frontEnd/podcastAd.jpg"
 						alt="Podcast"
 					/>
 					<p>Check out our podcast!</p>
-					<span className="mr-4">
+					<span className="mr-4 hover:text-red-600 hover:cursor-pointer">
 						<FontAwesomeIcon icon={["fab", "youtube"]} size="xl" />
 					</span>
-					<span className="mr-4">
+					<span className="mr-4 hover:text-green-600 hover:cursor-pointer">
 						<FontAwesomeIcon icon={["fab", "spotify"]} size="xl" />
 					</span>
-					<span>
+					<span className="mr-4 hover:text-orange-400 hover:cursor-pointer">
 						<FontAwesomeIcon
 							icon={["fab", "soundcloud"]}
 							size="xl"
 						/>
+					</span>
+					<span
+						className="hover:cursor-pointer"
+						onMouseOver={() => setColored(true)}
+						onMouseLeave={() => setColored(false)}
+					>
+						<GPI colored={colored} />
 					</span>
 				</li>
 			</ul>
