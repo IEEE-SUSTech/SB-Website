@@ -13,7 +13,7 @@ py -m venv NameOfVirtualEnvironment /path/to/new/virtual/environment
 b. Install django 3.2
 
 ``` shell
-    py -m pip install django==3.2
+py -m pip install django==3.2
 
 ```
 
@@ -34,14 +34,14 @@ npm i --save-dev
 a. Run the virtual environment (always)
 
 ``` shell
-    cd .\path\to\new\virtual\environment
-    ./activate
+cd .\path\to\new\virtual\environment
+./activate
 ```
 
 b. Compile the frontEnd code in its diretory
 
 ``` shell
-    npm run dev
+npm run dev
 ```
 
 c. Run the django server in its directory
