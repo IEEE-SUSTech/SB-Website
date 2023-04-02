@@ -15,11 +15,20 @@ const Footer = () => {
 						alt="Upcoming Event"
 					/>
 					<p>
-						Join us in our upcoming events! #IEEE{" "}
-						<a href="https://ieeer8.org/" target={"_blank"}>
+						Join us in our upcoming events!
+						<br />
+						#IEEE <br />
+						<a
+							href="https://ieeer8.org/"
+							className="hover:underline"
+							target={"_blank"}
+						>
 							#IEEERegion8
 						</a>
-						#IEEEAfrica #IEEESudan
+						<br />
+						#IEEEAfrica
+						<br />
+						#IEEESudan
 					</p>
 				</li>
 				<li className="w-1/4">
@@ -27,12 +36,13 @@ const Footer = () => {
 						src="../../static/frontEnd/pastEvent.jpg"
 						alt="Past Event"
 					/>
-					<p>
+					<p className="text-right" dir="rtl">
 						تم بالأمس إجراء معاينات اليوم الختامي بالمجمع الجنوبي
-						للمترشحين للإنضمام إلى IEEE SUSTech branch. كانت رحلة
-						مليئة بالأشخاص الرائعين ، نتمنى لكل من تمت معاينته
-						التوفيق ، والذين لم يحالفهم الحظ للوصول إلى هذه المرحلة
-						نتمنى لهم التوفيق في المرات القادمة 💙.
+						للمترشحين للإنضمام إلى IEEE SUSTech branch.
+						<br />
+						كانت رحلة مليئة بالأشخاص الرائعين ، نتمنى لكل من تمت
+						معاينته التوفيق ، والذين لم يحالفهم الحظ للوصول إلى هذه
+						المرحلة نتمنى لهم التوفيق في المرات القادمة 💙.
 					</p>
 				</li>
 				<li className="w-1/4">
