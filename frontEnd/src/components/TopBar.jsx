@@ -11,7 +11,7 @@ const TopBar = () => {
 						target={"_blank"}
 					>
 						IEEE.org
-					</a>{" "}
+					</a>
 					|
 				</li>
 				<li className="mr-1">
@@ -21,7 +21,7 @@ const TopBar = () => {
 						target={"_blank"}
 					>
 						IEEE Xplore Digital Library
-					</a>{" "}
+					</a>
 					|
 				</li>
 				<li className="mr-1">
@@ -31,7 +31,7 @@ const TopBar = () => {
 						target={"_blank"}
 					>
 						IEEE Standards
-					</a>{" "}
+					</a>
 					|
 				</li>
 				<li className="mr-1">
@@ -41,7 +41,7 @@ const TopBar = () => {
 						target={"_blank"}
 					>
 						IEEE Spectrum
-					</a>{" "}
+					</a>
 					|
 				</li>
 				<li className="mr-0">
@@ -55,7 +55,12 @@ const TopBar = () => {
 				</li>
 				{/* Left Side ^ Right Side v */}
 				<li className="ml-auto mr-5">
-					<a href="https://twitter.com/IEEEorg" target={"_blank"}>
+					<a
+						href="https://twitter.com/IEEEorg"
+						target={"_blank"}
+						onMouseEnter={() => {}}
+						onMouseLeave={() => {}}
+					>
 						<FontAwesomeIcon icon={["fab", "twitter"]} size="lg" />
 					</a>
 				</li>
@@ -63,6 +68,8 @@ const TopBar = () => {
 					<a
 						href="https://www.instagram.com/IEEEorg/"
 						target={"_blank"}
+						onMouseEnter={() => {}}
+						onMouseLeave={() => {}}
 					>
 						<FontAwesomeIcon
 							icon={["fab", "instagram"]}
@@ -74,6 +81,8 @@ const TopBar = () => {
 					<a
 						href="https://www.facebook.com/IEEE.org/"
 						target={"_blank"}
+						onMouseEnter={() => {}}
+						onMouseLeave={() => {}}
 					>
 						<FontAwesomeIcon icon={["fab", "facebook"]} size="lg" />
 					</a>

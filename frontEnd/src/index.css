@@ -30,3 +30,85 @@
 #welcome {
 	font-weight: bolder;
 }
+
+.yearCard {
+	animation: bumpUp 600ms ease-in-out forwards;
+}
+
+.yearCard:nth-child(2) {
+	animation-delay: 75ms;
+}
+
+.yearCard:nth-child(3) {
+	animation-delay: 150ms;
+}
+
+.yearCard:nth-child(4) {
+	animation-delay: 225ms;
+}
+
+@keyframes bumpUp {
+	0% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-100px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+/*
+.monthCard {
+	transform: translateY(75px);
+	transform: translateX(75px);
+	 animation: movie-grid 1s ease-in-out forwards; 
+}
+
+.monthCard:nth-child(1) {
+	--n: 1;
+}
+.monthCard:nth-child(2) {
+	--n: 2;
+}
+.monthCard:nth-child(3) {
+	--n: 3;
+}
+.monthCard:nth-child(4) {
+	--n: 4;
+}
+.monthCard:nth-child(5) {
+	--n: 5;
+}
+.monthCard:nth-child(6) {
+	--n: 6;
+}
+.monthCard:nth-child(7) {
+	--n: 7;
+}
+.monthCard:nth-child(8) {
+	--n: 8;
+}
+.monthCard:nth-child(9) {
+	--n: 9;
+}
+.monthCard:nth-child(10) {
+	--n: 10;
+}
+.monthCard:nth-child(11) {
+	--n: 11;
+}
+.monthCard:nth-child(12) {
+	--n: 12;
+}
+
+@keyframes move-grid {
+	0% {
+		transform: translate(75px, 75px);
+	}
+	100% {
+		transform: translateX(calc((100% / 4) * ((var(--n) - 1) % 4)))
+			translateY(calc((100% / 3) * (Math.floor((var(--n) - 1) / 4))));
+	}
+} 
+*/
