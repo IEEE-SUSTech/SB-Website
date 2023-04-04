@@ -10,10 +10,10 @@ a. Create a virtual environment of your choice; I use [venv](https://docs.python
 py -m venv NameOfVirtualEnvironment /path/to/new/virtual/environment 
 ```
 
-b. Install django 3.2
+b. Install django and packeages
 
 ``` shell
-py -m pip install django==3.2
+pip install -r requirements.txt
 
 ```
 

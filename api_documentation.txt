@@ -1,0 +1,95 @@
+1- add new event
+request type =POST,
+path ="addEvent/" ,
+body{
+"title":string long to 30,
+"mini_description": string long to 100,
+"show_photo":stirng url of the photo,
+"description":string long to 1000,
+"event_year":string like year format "2017","2018"
+},
+
+response= string as message of status add >
+
+success>"The event has been added successfully".
+failure>"An error occurred, please see api documentation".
+--------------------------------------------------------------------------------------
+2- add new podcast
+request type =POST,
+path ="addPodcast/" ,
+body{
+"title":string long to 30,
+"youtube_url": string long to 200,
+"spotify_url":string long to 200,
+"google_podcast_url":string long to 200,
+"soundCloud_url":string long to 200
+},
+
+response= string as message of status add >
+
+success>"The event has been added successfully".
+failure>"An error occurred, please see api documentation",
+--------------------------------------------------------------------------------
+3- getPodcasts
+request type =GET,
+path ="showPodcast/int/" ,>>you hava to insert intger number with path if 0 or any number
+response if id = 0 --> list of {
+"id":int ,
+"title":string ,
+"youtube_url": string ,
+"spotify_url":string ,
+"google_podcast_url":string,
+"soundCloud_url":string 
+} 
+else -->Podcast will bring you with this id
+
+{
+"id":int ,
+"title":string ,
+"youtube_url": string ,
+"spotify_url":string ,
+"google_podcast_url":string,
+"soundCloud_url":string 
+}
+-------------------------------------------------------------------------------------------
+4- get events
+request type =GET,
+path ="showEvent/int/" ,>>you hava to insert intger number with path if 0 or any number
+response if id = 0 --> list of {
+"id":int ,
+"title":string,
+"mini_description":string,
+"show_photo":string,
+"description":string,
+"event_year":string ,
+} 
+else -->events will bring you with this id
+
+{
+"id":int ,
+"title":string ,
+"title":string,
+"mini_description":string,
+"show_photo":string,
+"description":string,
+"event_year":string , 
+}
+---------------------------------------------------------------------------------------------
+5-get event by year
+request type =POST,
+path ="showEventByYear/" ,
+body{
+"event_year":string long 4,
+},
+
+response --> list of {
+
+"id":int ,
+"title":string,
+"mini_description":string,
+"show_photo":string,
+"description":string,
+"event_year":string ,
+}
+ 
+--------------------------------------------------------------------------------------------

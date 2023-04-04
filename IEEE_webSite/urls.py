@@ -15,8 +15,15 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from IEEE_SUST import views as vs
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('frontEnd.urls')),
+    path('addEvent/', vs.addEvent),
+    path('addPodcast/', vs.addPodcast),
+    path('showEvent/<int:id>/', vs.getEvents),
+    path('showPodcast/<int:id>/', vs.getPodcasts),
+    path("showEventByYear/",vs.getEventsByYear),
+
 ]
