@@ -1,0 +1,11 @@
+frontEnd/node_modules
+virtualSelf/
+**/__pycache__/
+package-lock.json
+styles.css
+main.js
+frontEnd/static/frontEnd/42c92ba3b11fce42e80d.png
+frontEnd/static/frontEnd/ce7e128ba9d17ae6dcea.png
+Test.jsx
+.vscode/
+.idea/
