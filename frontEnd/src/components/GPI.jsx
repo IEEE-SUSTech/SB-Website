@@ -1,4 +1,5 @@
 //  A custom component for the Google Podcasts Icon (GPI)
+// This is to solve the issue of hovering over the white icon to get the colourful icon
 
 const GPI = ({ colored }) => {
 	if (colored) {
