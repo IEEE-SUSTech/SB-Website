@@ -34,7 +34,7 @@ npm i --save-dev
 a. Run the virtual environment (always)
 
 ``` shell
-cd .\path\to\new\virtual\environment
+cd .\path\to\new\virtual\environment\Scripts
 ./activate
 ```
 

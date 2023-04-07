@@ -39,7 +39,7 @@ response if id = 0 --> list of {
 "youtube_url": string ,
 "spotify_url":string ,
 "google_podcast_url":string,
-"soundCloud_url":string 
+"sound_cloud":string 
 } 
 else -->Podcast will bring you with this id
 
@@ -49,7 +49,7 @@ else -->Podcast will bring you with this id
 "youtube_url": string ,
 "spotify_url":string ,
 "google_podcast_url":string,
-"soundCloud_url":string 
+"sound_cloud":string 
 }
 -------------------------------------------------------------------------------------------
 4- get events

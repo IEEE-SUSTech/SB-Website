@@ -26,11 +26,11 @@ const Navbar = () => {
 						</Link>
 					</li>
 				))}
-				<li className="ml-auto bg-gray-400">
+				<li className="ml-auto bg-gray-400 rounded-2xl">
 					<form action="#">
 						<input
 							type={"text"}
-							className="bg-gray-400 text-white searchBar p-2"
+							className="bg-gray-400 text-white searchBar p-2 rounded-2xl"
 							placeholder="Search..."
 							name="search"
 						/>

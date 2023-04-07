@@ -20,6 +20,7 @@
 	}
 }
 
+/* Home  */
 .scrollingIMG {
 	background: url(../static/frontEnd/ribbon.png) repeat-x;
 	height: 154px;
@@ -30,6 +31,8 @@
 #welcome {
 	font-weight: bolder;
 }
+
+/* Archives */
 
 .yearCard {
 	animation: bumpUp 600ms ease-in-out forwards;
@@ -58,6 +61,7 @@
 		transform: translateY(0);
 	}
 }
+
 /*
 .monthCard {
 	transform: translateY(75px);

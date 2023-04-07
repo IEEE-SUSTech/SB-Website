@@ -17,7 +17,7 @@ from .serializers import *
 
 
 @api_view(['POST'])
-@permission_classes([IsAuthenticated])
+# @permission_classes([IsAuthenticated])
 def addPodcast(request):
     title = request.data['title']
     youtube_url = request.data['youtube_url']
@@ -42,7 +42,7 @@ def addPodcast(request):
 
 
 @api_view(['POST'])
-@permission_classes([IsAuthenticated])
+# @permission_classes([IsAuthenticated])
 def addEvent(request):
     title = request.data['title']
     mini_description = request.data['mini_description']
@@ -62,7 +62,7 @@ def addEvent(request):
 
 
 @api_view(['GET'])
-@permission_classes([IsAuthenticated])
+# @permission_classes([IsAuthenticated])
 def getPodcasts(request, id):
     if id == 0:
         allPodcast = Podcast.objects.all()
@@ -75,7 +75,7 @@ def getPodcasts(request, id):
 
 
 @api_view(['GET'])
-@permission_classes([IsAuthenticated])
+# @permission_classes([IsAuthenticated])
 def getEvents(request, id):
     if id == 0:
         allEvents = Events.objects.all()
@@ -88,7 +88,7 @@ def getEvents(request, id):
 
 
 @api_view(['POST'])
-@permission_classes([IsAuthenticated])
+# @permission_classes([IsAuthenticated])
 def getEventsByYear(request):
     year = request.data['event_year']
     allEvents = Events.objects.filter(event_year=year)

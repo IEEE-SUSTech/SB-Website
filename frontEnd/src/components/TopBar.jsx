@@ -1,6 +1,9 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useState } from "react";
+import InstaSmall from "./InstaSmall.jsx";
 
 const TopBar = () => {
+	const [colored, setColored] = useState(false);
 	return (
 		<nav className="w-full h-9 bg-black text-white text-center">
 			<ul className="flex-row inline-flex w-3/4 items-center h-full">
@@ -54,37 +57,38 @@ const TopBar = () => {
 					</a>
 				</li>
 				{/* Left Side ^ Right Side v */}
-				<li className="ml-auto mr-5">
-					<a
-						href="https://twitter.com/IEEEorg"
-						target={"_blank"}
-						onMouseEnter={() => {}}
-						onMouseLeave={() => {}}
-					>
-						<FontAwesomeIcon icon={["fab", "twitter"]} size="lg" />
+				<li className="ml-auto mr-5 hover:text-twitterBlue">
+					<a href="https://twitter.com/IEEEorg" target={"_blank"}>
+						<FontAwesomeIcon
+							icon={["fab", "twitter"]}
+							style={{ height: 18, width: 18 }}
+						/>
 					</a>
 				</li>
 				<li className="mr-5">
 					<a
 						href="https://www.instagram.com/IEEEorg/"
 						target={"_blank"}
-						onMouseEnter={() => {}}
-						onMouseLeave={() => {}}
+						onMouseEnter={() => {
+							setColored(true);
+						}}
+						onMouseLeave={() => {
+							setColored(false);
+						}}
 					>
-						<FontAwesomeIcon
-							icon={["fab", "instagram"]}
-							size="lg"
-						/>
+						<InstaSmall colored={colored} />
 					</a>
 				</li>
 				<li>
 					<a
 						href="https://www.facebook.com/IEEE.org/"
 						target={"_blank"}
-						onMouseEnter={() => {}}
-						onMouseLeave={() => {}}
+						className="hover:text-facebookBlue"
 					>
-						<FontAwesomeIcon icon={["fab", "facebook"]} size="lg" />
+						<FontAwesomeIcon
+							icon={["fab", "facebook"]}
+							style={{ height: 18, width: 18 }}
+						/>
 					</a>
 				</li>
 			</ul>
