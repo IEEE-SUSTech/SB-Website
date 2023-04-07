@@ -6,6 +6,7 @@ import Banner from "./components/Banner.jsx";
 import Navbar from "./components/Navbar.jsx";
 import Hero from "./components/Hero.jsx";
 import Carousel from "./components/Carousel.jsx";
+import PreFooter from "./components/PreFooter.jsx";
 import Footer from "./components/Footer.jsx";
 import YearView from "./components/YearView.jsx";
 import MonthView from "./components/MonthView.jsx";
@@ -56,6 +57,7 @@ const App = () => {
 				<Route exact path="/magazine" />
 				<Route exact path="/podcast" Component={Podcast} />
 			</Routes>
+			<PreFooter />
 			<Footer />
 		</HashRouter>
 	);
