@@ -42,7 +42,6 @@ def addPodcast(request):
 
 
 @api_view(['POST'])
-# @permission_classes([IsAuthenticated])
 def addEvent(request):
     title = request.data['title']
     mini_description = request.data['mini_description']

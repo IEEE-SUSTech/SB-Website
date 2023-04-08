@@ -4,7 +4,7 @@ path ="addEvent/" ,
 body{
 "title":string long to 30,
 "mini_description": string long to 100,
-"show_photo":stirng url of the photo,
+"show_photo":file,
 "description":string long to 1000,
 "event_year":string like year format "2017","2018"
 },

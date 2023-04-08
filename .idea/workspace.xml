@@ -2,22 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ce2d7b7-da64-4aaf-abd2-9ee8f6ff85e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/SB-Website.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IEEE_SUST/migrations/0002_podcast_remove_events_brief_remove_events_end_date_and_more.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IEEE_SUST/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api_documentation.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SB-Website.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SB-Website.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IEEE_SUST/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/IEEE_SUST/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IEEE_SUST/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/IEEE_SUST/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IEEE_SUST/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/IEEE_SUST/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IEEE_webSite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/IEEE_webSite/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IEEE_webSite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/IEEE_webSite/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_documentation.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api_documentation.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
