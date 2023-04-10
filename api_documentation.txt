@@ -93,3 +93,36 @@ response --> list of {
 }
  
 --------------------------------------------------------------------------------------------
+6-add image for event
+request type =POST,
+path ="addImageEvent/int/",you have pass this id of event in path
+body{
+list!! [
+{
+"image":file of image
+},
+{
+"image":file of image
+}
+]
+},
+response= string as message of status add >
+
+success>"The image of event has been added successfully".
+failure>"An error occurred, please see api documentation",
+-----------------------------------------------------------------------------------------------
+7-get all image of event
+request type =GET,
+path="showImageEvent/<int:id>/"you have pass this id of event in path
+response= list of -->
+[
+{
+"image":string -->path of the image
+},
+
+{
+"image":string -->path of the image
+}
+
+]
+-------------------------------------------------------------------------------------------------

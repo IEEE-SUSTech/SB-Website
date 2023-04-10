@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ce2d7b7-da64-4aaf-abd2-9ee8f6ff85e7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/SB-Website.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SB-Website.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IEEE_SUST/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/IEEE_SUST/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IEEE_SUST/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/IEEE_SUST/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IEEE_SUST/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/IEEE_SUST/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IEEE_webSite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/IEEE_webSite/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IEEE_webSite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/IEEE_webSite/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api_documentation.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api_documentation.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +23,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="2NxA3YRMv1Ij87D1apfuz8rWZTs" />
   <component name="ProjectViewState">

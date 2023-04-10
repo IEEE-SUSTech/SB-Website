@@ -26,7 +26,10 @@ urlpatterns = [
     path('addPodcast/', vs.addPodcast),
     path('showEvent/<int:id>/', vs.getEvents),
     path('showPodcast/<int:id>/', vs.getPodcasts),
-    path("showEventByYear/",vs.getEventsByYear),
+    path('showEventByYear/',vs.getEventsByYear),
+    path('addImageEvent/<int:id>/', vs.AddImageToEvent),
+    path('showImageEvent/<int:id>/', vs.getAllImageEvent),
+
 
 ]
 urlpatterns+=static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

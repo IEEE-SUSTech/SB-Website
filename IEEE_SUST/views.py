@@ -96,3 +96,28 @@ def getEventsByYear(request):
         return Response(ser.data)
     else:
         return Response("An error occurred, please see api documentation")
+
+@api_view(['POST'])
+# @permission_classes([IsAuthenticated])
+def AddImageToEvent(request,id):
+    image = request.data['image']
+    for item in image:
+        imageEvent = ImageEvent(
+            eventId=id,
+            image=item
+        )
+        imageEvent.save()
+    if image:
+        return Response("The image of event has been added successfully")
+    else:
+        return Response("An error occurred, please see api documentation")
+
+@api_view(['GET'])
+# @permission_classes([IsAuthenticated])
+def getAllImageEvent(request,id):
+    imageEvent=ImageEvent.objects.filter(eventId=id)
+    ser=ImagesEventsSerializer(imageEvent,many=True)
+    if ser:
+        return Response(ser.data)
+    else:
+        return Response("An error occurred, please see api documentation")
