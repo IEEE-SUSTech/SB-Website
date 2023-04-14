@@ -9,7 +9,6 @@ import Carousel from "./components/Carousel.jsx";
 import PreFooter from "./components/PreFooter.jsx";
 import Footer from "./components/Footer.jsx";
 import YearView from "./components/YearView.jsx";
-import MonthView from "./components/MonthView.jsx";
 import EventView from "./components/EventView.jsx";
 import Podcast from "./components/Podcast.jsx";
 // icons
@@ -46,13 +45,8 @@ const App = () => {
 					}
 				/>
 				<Route exact path="/aboutUs" />
-				<Route exact path="/pastEvents" Component={YearView} />
-				<Route exact path="/pastEvents/:year" Component={MonthView} />
-				<Route
-					exact
-					path="/pastEvents/:year/month"
-					Component={EventView}
-				/>
+				<Route exact path="/pastEvents" Component={EventView} />
+				<Route exact path="/archives" Component={YearView} />
 				<Route exact path="/teams" />
 				<Route exact path="/magazine" />
 				<Route exact path="/podcast" Component={Podcast} />

@@ -12,9 +12,19 @@ module.exports = {
 					"0%, 100%": { transform: "rotate(-15deg)" },
 					"50%": { transform: "rotate(15deg)" },
 				},
+				shakeRight: {
+					"0%, 100%": { transform: "translateX(0)" },
+					"50%": { transform: "translateX(4px)" },
+				},
+				fadeIn: {
+					from: { opacity: 0 },
+					to: { opacity: "100%" },
+				},
 			},
 			animation: {
 				wiggle: "wiggle 500ms ease-in-out 1",
+				shakeRight: "shakeRight 300ms ease-in-out 2",
+				fadeIn: "fadeIn 500ms ease-in-out 1",
 			},
 			backgroundImage: {
 				banner: "url('./banner.png')",
