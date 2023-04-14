@@ -6,28 +6,28 @@ const YearView = () => {
 			<section className="w-[80%] h-auto flex justify-between items-center">
 				<Link
 					className="yearCard w-24 h-auto hover:text-ieeeBlue active:scale-95 cursor-pointer"
-					to="/pastEvents/2020"
+					to="/pastEvents"
 				>
 					<div className="eventIcon h-24 w-24 bg-gray-400 hover:bg-gray-600"></div>
 					<p className="eventLabel w-24 text-center">2020</p>
 				</Link>
 				<Link
 					className="yearCard w-24 h-auto hover:text-ieeeBlue active:scale-95 cursor-pointer"
-					to="/pastEvents/2021"
+					to="/pastEvents"
 				>
 					<div className="eventIcon h-24 w-24 bg-gray-400 hover:bg-gray-600 "></div>
 					<p className="eventLabel w-24 text-center">2021</p>
 				</Link>
 				<Link
 					className="yearCard w-24 h-auto hover:text-ieeeBlue active:scale-95 cursor-pointer"
-					to="/pastEvents/2022"
+					to="/pastEvents"
 				>
 					<div className="eventIcon h-24 w-24 bg-gray-400 hover:bg-gray-600"></div>
 					<p className="eventLabel w-24 text-center">2022</p>
 				</Link>
 				<Link
 					className="yearCard w-24 h-auto hover:text-ieeeBlue active:scale-95 cursor-pointer"
-					to="/pastEvents/2023"
+					to="/pastEvents"
 				>
 					<div className="eventIcon h-24 w-24 bg-gray-400 hover:bg-gray-600"></div>
 					<p className="eventLabel w-24 text-center">2023</p>

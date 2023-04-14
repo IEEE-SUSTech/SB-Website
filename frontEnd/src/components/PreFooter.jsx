@@ -51,19 +51,9 @@ const PreFooter = () => {
 				</li>
 				<li className="w-1/4">
 					<img src="../../static/frontEnd/weekly-news-crop.jpg" />
-					<p>Keep up with the latest in the tech world!</p>
-					{/* <img
-						src="../../static/frontEnd/pastEvent.jpg"
-						alt="Past Event"
-					/>
-					<p className="text-right" dir="rtl">
-						تم بالأمس إجراء معاينات اليوم الختامي بالمجمع الجنوبي
-						للمترشحين للإنضمام إلى IEEE SUSTech branch.
-						<br />
-						كانت رحلة مليئة بالأشخاص الرائعين ، نتمنى لكل من تمت
-						معاينته التوفيق ، والذين لم يحالفهم الحظ للوصول إلى هذه
-						المرحلة نتمنى لهم التوفيق في المرات القادمة 💙.
-					</p> */}
+					<a href="https://www.facebook.com/sustechsb/photos/pb.100064370034225.-2207520000./5782344038522876/?type=3">
+						Keep up with the latest in the tech world!
+					</a>
 				</li>
 				<li className="w-1/4">
 					<img
